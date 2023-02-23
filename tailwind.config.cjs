@@ -36,14 +36,14 @@ module.exports = {
     },
     backgroundImage: {
       'gradient-1': 'linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%)',
-      'gradient-2': 'linear-gradient(180deg, #4851FF 0%, #F02AA6 99.92%)',
+      'gradient-2': 'linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%)',
       'main-gradient': 'linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%)'
     },
     container: {
       center: true
     },
     borderRadius: {
-      btn: '28px',
+      btn: '32px',
       card: '10px',
       'card-xl': '15px'
     },
