@@ -44,7 +44,8 @@ module.exports = {
     },
     borderRadius: {
       btn: '28px',
-      card: '10px'
+      card: '10px',
+      'card-xl': '15px'
     },
     screens: {
       md: '768px',
