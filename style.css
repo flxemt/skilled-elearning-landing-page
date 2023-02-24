@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (min-width: 768px) {
+  .hero {
+    background-image: url('/image-hero-tablet@2x.png');
+    background-size: 640px;
+    background-repeat: no-repeat;
+    background-position: right -280px top -100px;
+  }
+}
+
+@media (min-width: 1190px) {
+  .hero {
+    background-image: url('/image-hero-desktop@2x.png');
+    background-size: 991px;
+    background-position: right -280px top -124px;
+  }
+}
+
+@media (min-width: 1700px) {
+  .hero {
+    background-position: right 0 top -124px;
+  }
+}
