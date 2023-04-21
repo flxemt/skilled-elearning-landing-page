@@ -4,7 +4,7 @@ const cards = document.getElementById('cards')
 
 function renderCards() {
   let html = `
-    <div class="bg-gradient-1 pt-6 pb-8 px-7 text-white rounded-card md:pl-8 md:pr-[1.375rem] md:pt-14 xl:pt-16 xl:px-8 xl:pb-10 xl:shadow-card xl:rounded-card-xl">
+    <div class="bg-gradient-1 pt-6 pb-8 px-7 text-white rounded-card md:pl-8 md:pr-[1.375rem] md:pt-14 xl:pt-16 xl:px-8 xl:shadow-card xl:rounded-card-xl xl:self-end xl:pb-[8.625rem]">
       <h2 class="text-heading-s leading-[2rem] font-extrabold xl:text-heading-m xl:leading-heading-m">Check out our most popular courses!</h2>
     </div>
   `
