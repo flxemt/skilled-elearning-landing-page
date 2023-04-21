@@ -14,8 +14,8 @@
 @media (min-width: 1190px) {
   .hero {
     background-image: url('/image-hero-desktop@2x.png');
-    background-size: 991px;
-    background-position: right -280px top -124px;
+    background-size: 1050px;
+    background-position: right -340px top -150px;
   }
 }
 

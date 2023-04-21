@@ -12,7 +12,7 @@ function renderCards() {
   data.forEach(item => {
     html += `
       <div class="flex flex-col items-start bg-white px-7 pb-8 rounded-card md:pl-8 md:pr-[1.375rem] xl:px-8 xl:pb-10 xl:shadow-card xl:rounded-card-xl">
-        <img src="${item.icon}" class="mt-[-28px]" alt="${item.name} icon">
+        <img src="${item.icon}" class="mt-[-25px]" alt="${item.name} icon">
         <h3 class="mt-6 text-dark-blue font-extrabold text-[1.25rem] leading-[1.25] xl:mt-8 xl:text-heading-s">${item.name}</h3>
         <p class="mt-4 font-medium leading-body-s xl:mt-6 xl:text-body-m xl:leading-body-m mb-6">${item.text}</p>
         <a href="${item.link}" class="font-bold inline-block text-body-m mt-auto text-dark-pink leading-body-m hover:text-pink-hover transition-colors">Get Started</a>
